@@ -31,7 +31,7 @@ footer {
     background: black !important;
 }
 
-a {
+.navbar a {
     color: white !important;
     transition: 1s ease;
     font-family: rubik, helvetica, sans-serif;
@@ -65,7 +65,7 @@ a {
 }
 
 #index-top {
-    background: url(./assets/chris-barbalis-1170850-unsplash.jpg);
+    background: url("https://images.unsplash.com/photo-1532566935714-0124cc63e805?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=933&q=80");
     background-size: cover;
     background-position: center;
 }
@@ -109,6 +109,14 @@ a {
     background: white;
     padding: 50px 0px;
     font-family: rubik, sans-serif;
+}
+
+#work a:hover {
+    text-decoration: none;
+}
+
+#work a:hover h4 {
+    text-decoration: underline;
 }
 
 .work-wrapper {
